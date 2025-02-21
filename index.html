@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Bookstore</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header>
+		<h1>Online Bookstore</h1>
+		<nav>
+			<input type="text" id="search" placeholder="Search for books..." onkeyup="showSuggestions()">
+			<div id="suggestions" class="suggestions-box"></div>
+			<button onclick="searchBooks()">Search</button>
+		</nav>
+	</header>
+
+	<section id="banner">
+		<h2>Welcome to the Best Bookstore</h2>
+		<p>Find books on Psychology, Philosophy, Filmmaking, Cooking, and more!</p>
+	</section>
+
+	<aside>
+		<h3>Categories</h3>
+		<ul>
+			<li>Psychology</li>
+			<li>Philosophy</li>
+			<li>Filmmaking</li>
+			<li>Cooking</li>
+		</ul>
+	</aside>
+
+	<section id="book-list" class="book-list">
+		<div class="book">
+			<h3 class="book-title">The Art of Thinking Clearly</h3>
+			<p>By Rolf Dobelli</p>
+			<a href="#">View Details</a>
+		</div>
+		<div class="book">
+			<h3 class="book-title">The Republic</h3>
+			<p>By Plato</p>
+			<a href="#">View Details</a>
+		</div>
+		<div class="book">
+			<h3 class="book-title">Story: Substance, Structure, Style</h3>
+			<p>By Robert McKee</p>
+			<a href="#">View Details</a>
+		</div>
+		<div class="book">
+			<h3 class="book-title">Salt, Fat, Acid, Heat</h3>
+			<p>By Samin Nosrat</p>
+			<a href="#">View Details</a>
+		</div>
+	</section>
+
+	<script src="script.js"></script>
+</body>
+
+</html>
